@@ -445,6 +445,20 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 
+.elements 
+{
+height: 35px;width: 32px;
+}
+@media screen and (max-width: 800px)
+{
+
+.elements 
+{
+height: 22px;width: 20px;
+}  
+}
+
+
 .mob 
 {
   display: flex;align-items: center;text-align: center;justify-content: center;background-color: #106eea;
