@@ -73,6 +73,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -443,9 +445,53 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 
+.mob 
+{
+  display: flex;align-items: center;text-align: center;justify-content: center;background-color: #106eea;
+  
+}
+
+@media screen and (min-width: 800px)
+{
+
+  .socmob
+  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) 
+{
+
+  .soc
+  {
+    display: none;
+  }
+}
+
+
+.lap 
+{
+  display: flex;align-items: center;
+}
+
+.socmob 
+{
+  cursor: pointer;
+  color: black;
+  font-size: 30px;
+}
+.socmob:hover
+{
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}
 .soc
 {
   cursor: pointer;
+  color: black;
+  font-size: 25px;
 }
 .soc:hover 
 {
@@ -454,7 +500,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .more img 
 {
- margin-right: 20px;
+ margin-right: 5px;
 }
 
 .more button 
